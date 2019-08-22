@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_tts (0.0.1):
+    - Flutter
+  - speech_recognition (0.3.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_tts (from `.symlinks/plugins/flutter_tts/ios`)
+  - speech_recognition (from `.symlinks/plugins/speech_recognition/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_tts:
+    :path: ".symlinks/plugins/flutter_tts/ios"
+  speech_recognition:
+    :path: ".symlinks/plugins/speech_recognition/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_tts: 8ef9d28ecff6321d667307300dbf45151273b3fb
+  speech_recognition: b5319aace06c3633c0547de44899f6e0bf8b2168
+
+PODFILE CHECKSUM: 4c58993a6731e33624d0509d3a7e0e88cc60b309
+
+COCOAPODS: 1.6.1
