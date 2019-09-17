@@ -29,10 +29,10 @@ class TTSEngine {
     _initTts();
   }
 
-  void play (String text) {
+  Future play (String text) async {
     if(text !=null) {
       _newVoiceText = text;
-      _speak();
+      await _speak();
     }
   }
 
